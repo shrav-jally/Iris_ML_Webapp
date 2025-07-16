@@ -1,34 +1,30 @@
-# Iris Species Predictor - Streamlit Deployment
+# Iris Species Predictor – Streamlit Deployment
 
-## 🧾 Description
-This Streamlit web app allows users to input flower measurements and predicts the species of an Iris flower using a trained RandomForest model.
+## Description
+A simple Streamlit web application that predicts the species of an Iris flower based on user-provided measurements. It uses a pre-trained Random Forest model built on the Iris dataset.
 
-## ✅ Features
-- User-friendly sliders for input
-- Prediction displayed instantly
-- Scatter plot of original dataset
+## Features
+- Interactive sliders for sepal and petal measurements
+- Instant prediction display
+- Visual representation of the Iris dataset with a scatter plot
 
-## 🧠 ML Model
-- Trained using the Iris dataset
-- RandomForestClassifier from scikit-learn
-- Model saved using `joblib`
+## Machine Learning Model
+- Dataset: Iris dataset from scikit-learn
+- Model: RandomForestClassifier
+- Model persistence: Saved using `joblib`
 
-## 📦 Requirements
-- streamlit
-- scikit-learn
-- pandas
-- seaborn
-- matplotlib
-- joblib
+## Requirements
+- streamlit  
+- scikit-learn  
+- pandas  
+- seaborn  
+- matplotlib  
+- joblib  
 
-## 🚀 How to Run
-```bash
+## How to Run
+1. Install dependencies:
+   ```bash
 pip install -r requirements.txt
-jupyter notebook     # for training
+jupyter notebook
 streamlit run streamlit_app.py
-```
 
-## 📂 Files
-- `model_training.ipynb`: Notebook to train and save model
-- `trained_model.pkl`: Saved model
-- `streamlit_app.py`: Streamlit web app
