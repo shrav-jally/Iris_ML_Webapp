@@ -23,7 +23,6 @@ A simple Streamlit web application that predicts the species of an Iris flower b
 
 ## How to Run
 1. Install dependencies:
-   ```bash
 pip install -r requirements.txt
 jupyter notebook
 streamlit run streamlit_app.py
